@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    const float phi = 3.14;
+    float jari2,t,v;
+
+    cout<<"Masukkan jari-jari: ";
+    cin>>jari2;
+    
+    cout<<"Masukkan tinggi: ";
+    cin>>t;
+
+    v=(phi*jari2*jari2*t)/3;
+
+    cout<<"Volume ="<<v<<endl;
+
+
+}
