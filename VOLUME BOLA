@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    const float phi = 3.14;
+    float d,v;
+
+    cout<<"Masukkan Diameter: ";
+    cin>>d;
+
+    v=(phi*d*d*d)/6;
+
+    cout<<"Volume ="<<v<<endl;
+
+
+}
